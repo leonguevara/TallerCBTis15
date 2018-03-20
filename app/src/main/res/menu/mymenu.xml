@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/call"
+        android:orderInCategory="1"
+        android:title="@string/call_item"
+        android:icon="@drawable/ic_call_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/location"
+        android:orderInCategory="2"
+        android:title="@string/location_item"
+        android:icon="@drawable/ic_my_location_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/camera"
+        android:orderInCategory="3"
+        android:title="@string/camera_item"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/video"
+        android:orderInCategory="4"
+        android:title="@string/video_item"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/color"
+        android:orderInCategory="5"
+        android:title="@string/color_item"
+        android:icon="@drawable/ic_palette_black_24dp"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/color_red"
+                android:orderInCategory="1"
+                android:title="@string/color_red_item"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/color_blue"
+                android:orderInCategory="2"
+                android:title="@string/color_blue_item"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/color_green"
+                android:orderInCategory="3"
+                android:title="@string/color_green_item"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+</menu>

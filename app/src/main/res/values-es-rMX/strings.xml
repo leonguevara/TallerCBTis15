@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller para CBTis15</string>
+    <string name="call_item">Llamada telefónica</string>
+    <string name="location_item">Obtener localización</string>
+    <string name="camera_item">Tomar foto</string>
+    <string name="video_item">Grabar video</string>
+    <string name="color_item">Cambiar color</string>
+    <string name="color_red_item">Rojo</string>
+    <string name="color_blue_item">Azul</string>
+    <string name="color_green_item">Verde</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="subtitle">Elige una opción</string>
+</resources>
